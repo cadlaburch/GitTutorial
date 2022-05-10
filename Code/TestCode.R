@@ -12,6 +12,7 @@ library(spData) #datasets
 class(nyc_squirrels)
 
 ggplot(data = nyc_squirrels, aes(x=primary_fur_color))+
-  geom_histogram(stat = "count")
+  geom_histogram(stat = "count") +
+  theme_bw()
 
 
